@@ -131,8 +131,8 @@ grep -rli "sec" | xargs cp -t inner_dir_1
 grep -r "sec" *.txt | xargs cp cat> tf_7.txt
 
  39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово “sec”
-grep -rli "sec" | xargs rm -t
+grep -rli "sec" | xargs rm 
 
  40. Просто вывести в терминал строку “Good job!!”
-echo "Good job!"> tf_8.txt |xargs cat tf_8.txt
+echo "Good job!"
 
